@@ -1,0 +1,3 @@
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh.API\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.csproj.CoreCompileInputs.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh.API\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.AssemblyInfoInputs.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh.API\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.AssemblyInfo.cs

@@ -1,0 +1,13 @@
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\bin\Debug\netcoreapp2.2\KAS.TruongThinh.API.deps.json
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\bin\Debug\netcoreapp2.2\KAS.TruongThinh.API.runtimeconfig.json
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\bin\Debug\netcoreapp2.2\KAS.TruongThinh.API.runtimeconfig.dev.json
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\bin\Debug\netcoreapp2.2\KAS.TruongThinh.API.dll
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\bin\Debug\netcoreapp2.2\KAS.TruongThinh.API.pdb
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.csproj.CoreCompileInputs.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.RazorAssemblyInfo.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.RazorAssemblyInfo.cs
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.AssemblyInfoInputs.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.AssemblyInfo.cs
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.RazorTargetAssemblyInfo.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.dll
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAS.TruongThinh\obj\Debug\netcoreapp2.2\KAS.TruongThinh.API.pdb

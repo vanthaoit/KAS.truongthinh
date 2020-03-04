@@ -4,6 +4,62 @@
     "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.API\\KAS.TruongThinh.API.csproj": {}
   },
   "projects": {
+    "G:\\KAMIKAZE SOLUTIONS\\EnterpriseLibraries\\StableVersion\\KAS.EnterpriseLibrary.Authentication.Core\\KAS.EnterpriseLibrary.Authentication.Core.csproj": {
+      "version": "2019.2.0",
+      "restore": {
+        "projectUniqueName": "G:\\KAMIKAZE SOLUTIONS\\EnterpriseLibraries\\StableVersion\\KAS.EnterpriseLibrary.Authentication.Core\\KAS.EnterpriseLibrary.Authentication.Core.csproj",
+        "projectName": "KAS.EnterpriseLibrary.Authentication.Core",
+        "projectPath": "G:\\KAMIKAZE SOLUTIONS\\EnterpriseLibraries\\StableVersion\\KAS.EnterpriseLibrary.Authentication.Core\\KAS.EnterpriseLibrary.Authentication.Core.csproj",
+        "packagesPath": "C:\\Users\\ThaoFrederic\\.nuget\\packages\\",
+        "outputPath": "G:\\KAMIKAZE SOLUTIONS\\EnterpriseLibraries\\StableVersion\\KAS.EnterpriseLibrary.Authentication.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ThaoFrederic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.API\\KAS.TruongThinh.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +68,226 @@
         "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.API\\KAS.TruongThinh.API.csproj",
         "packagesPath": "C:\\Users\\ThaoFrederic\\.nuget\\packages\\",
         "outputPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ThaoFrederic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "G:\\KAMIKAZE SOLUTIONS\\EnterpriseLibraries\\StableVersion\\KAS.EnterpriseLibrary.Authentication.Core\\KAS.EnterpriseLibrary.Authentication.Core.csproj": {
+                "projectPath": "G:\\KAMIKAZE SOLUTIONS\\EnterpriseLibraries\\StableVersion\\KAS.EnterpriseLibrary.Authentication.Core\\KAS.EnterpriseLibrary.Authentication.Core.csproj"
+              },
+              "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.BusinessFunctions\\KAS.TruongThinh.BusinessFunctions.csproj": {
+                "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.BusinessFunctions\\KAS.TruongThinh.BusinessFunctions.csproj"
+              },
+              "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj": {
+                "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.BusinessFunctions\\KAS.TruongThinh.BusinessFunctions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.BusinessFunctions\\KAS.TruongThinh.BusinessFunctions.csproj",
+        "projectName": "KAS.TruongThinh.BusinessFunctions",
+        "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.BusinessFunctions\\KAS.TruongThinh.BusinessFunctions.csproj",
+        "packagesPath": "C:\\Users\\ThaoFrederic\\.nuget\\packages\\",
+        "outputPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.BusinessFunctions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ThaoFrederic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.DataAccess\\KAS.TruongThinh.DataAccess.csproj": {
+                "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.DataAccess\\KAS.TruongThinh.DataAccess.csproj"
+              },
+              "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj": {
+                "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.DataAccess\\KAS.TruongThinh.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.DataAccess\\KAS.TruongThinh.DataAccess.csproj",
+        "projectName": "KAS.TruongThinh.DataAccess",
+        "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.DataAccess\\KAS.TruongThinh.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ThaoFrederic\\.nuget\\packages\\",
+        "outputPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ThaoFrederic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj": {
+                "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj",
+        "projectName": "KAS.TruongThinh.Models",
+        "projectPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\KAS.TruongThinh.Models.csproj",
+        "packagesPath": "C:\\Users\\ThaoFrederic\\.nuget\\packages\\",
+        "outputPath": "G:\\KAMIKAZE SOLUTIONS\\PROJECT\\kamikaze-truongthinh\\Source\\KAS.TruongThinh\\KAS.TruongThinh.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,26 +317,15 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
+            "Dapper.Contrib": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.0.30, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.7.12, )"
             }
           },
           "imports": [

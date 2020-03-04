@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAS.TruongThinh.API", "KAS.TruongThinh.API\KAS.TruongThinh.API.csproj", "{4682C47A-8E9D-4561-A28C-96C18D6C0211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAS.TruongThinh.API", "KAS.TruongThinh.API\KAS.TruongThinh.API.csproj", "{4682C47A-8E9D-4561-A28C-96C18D6C0211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAS.TruongThinh.Models", "KAS.TruongThinh.Models\KAS.TruongThinh.Models.csproj", "{BFA17E6D-0726-486A-AEBD-1EE2A5AD6500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAS.TruongThinh.Models", "KAS.TruongThinh.Models\KAS.TruongThinh.Models.csproj", "{BFA17E6D-0726-486A-AEBD-1EE2A5AD6500}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "KAs.TruongThinh.Database", "KAs.TruongThinh.Database\KAs.TruongThinh.Database.sqlproj", "{7F5A477F-C395-469C-BF8F-660B4F98F3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAS.TruongThinh.DataAccess", "KAS.TruongThinh.DataAccess\KAS.TruongThinh.DataAccess.csproj", "{9D5271C2-C975-425E-966E-266D331BC1F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAS.TruongThinh.DataAccess", "KAS.TruongThinh.DataAccess\KAS.TruongThinh.DataAccess.csproj", "{9D5271C2-C975-425E-966E-266D331BC1F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAS.TruongThinh.BusinessFunctions", "KAS.TruongThinh.BusinessFunctions\KAS.TruongThinh.BusinessFunctions.csproj", "{BC1900BE-EBA5-4AFB-83C2-BBD00BFC40A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAS.TruongThinh.BusinessFunctions", "KAS.TruongThinh.BusinessFunctions\KAS.TruongThinh.BusinessFunctions.csproj", "{BC1900BE-EBA5-4AFB-83C2-BBD00BFC40A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{54238A17-0958-4963-A5D4-828396DBC227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAS.EnterpriseLibrary.AppServices.Gateway.Core", "..\..\..\..\EnterpriseLibraries\StableVersion\KAS.EnterpriseLibrary.AppServices.Gateway.Core\KAS.EnterpriseLibrary.AppServices.Gateway.Core.csproj", "{C2C4CAE2-5F75-4BCA-913A-83AAD108CCCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAS.EnterpriseLibrary.Authentication.Core", "..\..\..\..\EnterpriseLibraries\StableVersion\KAS.EnterpriseLibrary.Authentication.Core\KAS.EnterpriseLibrary.Authentication.Core.csproj", "{FCFBF1BC-C503-4548-B307-FFC2CC714554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,9 +47,21 @@ Global
 		{BC1900BE-EBA5-4AFB-83C2-BBD00BFC40A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1900BE-EBA5-4AFB-83C2-BBD00BFC40A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1900BE-EBA5-4AFB-83C2-BBD00BFC40A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C4CAE2-5F75-4BCA-913A-83AAD108CCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C4CAE2-5F75-4BCA-913A-83AAD108CCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C4CAE2-5F75-4BCA-913A-83AAD108CCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C4CAE2-5F75-4BCA-913A-83AAD108CCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFBF1BC-C503-4548-B307-FFC2CC714554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFBF1BC-C503-4548-B307-FFC2CC714554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFBF1BC-C503-4548-B307-FFC2CC714554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFBF1BC-C503-4548-B307-FFC2CC714554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C4CAE2-5F75-4BCA-913A-83AAD108CCCD} = {54238A17-0958-4963-A5D4-828396DBC227}
+		{FCFBF1BC-C503-4548-B307-FFC2CC714554} = {54238A17-0958-4963-A5D4-828396DBC227}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37243046-1A30-4F7B-BD7D-CFD55BB7D503}

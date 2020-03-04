@@ -8,14 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.7.12" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="IControllers\" />
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\..\..\..\EnterpriseLibraries\StableVersion\KAS.EnterpriseLibrary.Authentication.Core\KAS.EnterpriseLibrary.Authentication.Core.csproj" />
+    <ProjectReference Include="..\KAS.TruongThinh.BusinessFunctions\KAS.TruongThinh.BusinessFunctions.csproj" />
+    <ProjectReference Include="..\KAS.TruongThinh.Models\KAS.TruongThinh.Models.csproj" />
   </ItemGroup>
 
 </Project>

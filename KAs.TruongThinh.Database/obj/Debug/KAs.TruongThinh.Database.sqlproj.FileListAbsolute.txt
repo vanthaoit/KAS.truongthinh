@@ -1,0 +1,10 @@
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\bin\Debug\KAs.TruongThinh.Database.dacpac
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\bin\Debug\KAs.TruongThinh.Database.dll
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\bin\Debug\KAs.TruongThinh.Database.pdb
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\KAs.TruongThinh.Database.sqlprojAssemblyReference.cache
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\Model.xml
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\refactor.xml
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\postdeploy.sql
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\predeploy.sql
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\KAs.TruongThinh.Database.dll
+G:\KAMIKAZE SOLUTIONS\PROJECT\kamikaze-truongthinh\Source\KAS.TruongThinh\KAs.TruongThinh.Database\obj\Debug\KAs.TruongThinh.Database.pdb

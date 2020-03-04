@@ -5,10 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Constants\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Structs\" />
+    <Compile Remove="Entities\Error.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ViewModels\Services\MechanicalProcessing\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Entities\Error.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Contrib" Version="2.0.30" />
   </ItemGroup>
 
 </Project>
